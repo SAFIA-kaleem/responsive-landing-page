@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Landing Page</title>
+  <title>NexusApp - Modern Solution for Your Business</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- Header / Navigation -->
   <header>
     <nav class="navbar">
-      <div class="logo">MyBrand</div>
+      <div class="logo">Nexus<span>App</span></div>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-btn">Contact Us</a></li>
       </ul>
       <button class="hamburger" id="hamburger">☰</button>
     </nav>
@@ -25,34 +27,59 @@
   <!-- Hero Section -->
   <section class="hero" id="home">
     <div class="hero-content">
-      <h1>Build Modern & Fast Websites</h1>
-      <p>Clean design, mobile responsive, and fully customizable templates for your business.</p>
-      <a href="#features" class="btn">Get Started</a>
+      <span class="badge">🚀 Introducing NexusApp v2.0</span>
+      <h1>Build Better Products Faster Than Ever</h1>
+      <p>Empower your team with a sleek, high-performance platform designed to scale your workflow and boost conversion rates effortlessly.</p>
+      <div class="hero-buttons">
+        <a href="#features" class="btn primary-btn">Get Started Free</a>
+        <a href="#about" class="btn secondary-btn">Learn More</a>
+      </div>
     </div>
   </section>
 
   <!-- Features Section -->
   <section class="features" id="features">
-    <h2>Our Features</h2>
+    <div class="section-title">
+      <h2>Powerful Features</h2>
+      <p>Everything you need to build and manage your digital presence.</p>
+    </div>
     <div class="feature-grid">
       <div class="feature-card">
-        <h3>Fast Performance</h3>
-        <p>Optimized code ensuring lighting-fast load speeds across all devices.</p>
+        <div class="icon">⚡</div>
+        <h3>Lightning Fast</h3>
+        <p>Optimized for peak performance ensuring minimal load times across all devices.</p>
       </div>
       <div class="feature-card">
+        <div class="icon">📱</div>
         <h3>Fully Responsive</h3>
-        <p>Looks great on desktops, tablets, and smartphones out of the box.</p>
+        <p>Adapts seamlessly to mobile phones, tablets, laptops, and wide desktop screens.</p>
       </div>
       <div class="feature-card">
-        <h3>Easy Customization</h3>
-        <p>Well-structured HTML & CSS makes it effortless to tune to your brand.</p>
+        <div class="icon">🛡️</div>
+        <h3>Secure & Reliable</h3>
+        <p>Built with enterprise-grade security standards to keep your data safe and sound.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>Why Choose NexusApp?</h2>
+        <p>We combine cutting-edge technology with intuitive design to deliver experiences that your users will love. Our framework is lightweight, customizable, and ready for production.</p>
+        <ul class="check-list">
+          <li>✔ 100% Customizable components</li>
+          <li>✔ 24/7 Dedicated community support</li>
+          <li>✔ Clean and modern code structure</li>
+        </ul>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 MyBrand. All rights reserved.</p>
+    <p>&copy; 2026 NexusApp. All rights reserved. Built with passion.</p>
   </footer>
 
   <script src="script.js"></script>
